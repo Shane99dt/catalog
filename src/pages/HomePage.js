@@ -11,7 +11,7 @@ const HomePage = () => {
         {filmList.map((film) => {
           return(
             <>
-              <div className="card col-6 col-sm-4 col-md-3 col-lg-3 m-2 pt-2">
+              <div className="card col-6 col-sm-4 col-md-3 col-lg-2 m-2 pt-2">
                 <img className="card-img-top" src={film.image} alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="w-100 p-0 m-0 text-center">
