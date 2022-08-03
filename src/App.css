@@ -1,0 +1,30 @@
+.card{
+  width: 14rem;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+
+/* movies title */
+.movies-title{
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: cursive;
+  animation: neon 5s infinite;
+}
+
+@keyframes neon{
+  0%, 39%, 41%, 59%, 61%, 100%{
+    text-shadow: white 0 0 6px, #2f2b2d 0 0 18px, #2f2b2d 0 0 20px;
+  }
+
+  40%, 60%{
+    text-shadow: none;
+  }
+}
+
+/* movies title end*/
+
+/* film title */
+.film-title{
+  font-family: cursive;
+  color: beige;
+}
