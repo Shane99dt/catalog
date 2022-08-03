@@ -8,7 +8,11 @@ import description  from '../imagesFilm/description.png'
 const Movie = () => {
 
   const params = useParams()
-  const [film] = useState(filmList[params.name-1])
+  const {name} =params
+  const currentFilm = filmList.find(film => film.id === Number(name))
+  // const [film] = useState(filmList[params.name-1])
+  const [film] = useState(currentFilm)
+
 
   return(
     <>
