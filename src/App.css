@@ -28,3 +28,24 @@
   font-family: cursive;
   color: beige;
 }
+
+/* film info */
+
+.film-info{
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.filmStar-list{
+  list-style: none;
+}
+
+.filmStar-list li:before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-size: 10px;
+  background-image: url(../src/imagesFilm/star.png);
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
